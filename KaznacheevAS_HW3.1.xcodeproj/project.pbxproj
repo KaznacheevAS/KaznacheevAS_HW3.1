@@ -11,6 +11,8 @@
 		AB8E87D226E722E100696F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E87D126E722E100696F7F /* ContentView.swift */; };
 		AB8E87D426E722E200696F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8E87D326E722E200696F7F /* Assets.xcassets */; };
 		AB8E87D726E722E200696F7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8E87D626E722E200696F7F /* Preview Assets.xcassets */; };
+		ABC23CF226E8A23E001F62CC /* CircleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC23CF126E8A23E001F62CC /* CircleColor.swift */; };
+		ABC23CF426E8A541001F62CC /* ButtomClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC23CF326E8A541001F62CC /* ButtomClick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AB8E87D326E722E200696F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8E87D626E722E200696F7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB8E87D826E722E200696F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC23CF126E8A23E001F62CC /* CircleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColor.swift; sourceTree = "<group>"; };
+		ABC23CF326E8A541001F62CC /* ButtomClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomClick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				AB8E87CF26E722E100696F7F /* KaznacheevAS_HW3_1App.swift */,
-				AB8E87D126E722E100696F7F /* ContentView.swift */,
 				AB8E87D326E722E200696F7F /* Assets.xcassets */,
 				AB8E87D826E722E200696F7F /* Info.plist */,
+				AB8E87D126E722E100696F7F /* ContentView.swift */,
+				ABC23CF126E8A23E001F62CC /* CircleColor.swift */,
+				ABC23CF326E8A541001F62CC /* ButtomClick.swift */,
 				AB8E87D526E722E200696F7F /* Preview Content */,
 			);
 			path = KaznacheevAS_HW3.1;
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8E87D226E722E100696F7F /* ContentView.swift in Sources */,
+				ABC23CF426E8A541001F62CC /* ButtomClick.swift in Sources */,
 				AB8E87D026E722E100696F7F /* KaznacheevAS_HW3_1App.swift in Sources */,
+				ABC23CF226E8A23E001F62CC /* CircleColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

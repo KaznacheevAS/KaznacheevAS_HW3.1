@@ -7,15 +7,28 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
 
+
+struct ContentView: View {
+    
+    var body: some View {
+        VStack(spacing: 20){
+            CircleColor()
+           Spacer()
+            ButtomClick()
+            
+        }.preferredColorScheme(.dark)
+    }
+    
+    
+
+    
+    
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            
+           
     }
 }
